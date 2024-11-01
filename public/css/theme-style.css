@@ -1,0 +1,262 @@
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot?gs5uaf');
+	src: url('../fonts/icomoon.eot?gs5uaf#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?gs5uaf') format('truetype'), url('../fonts/icomoon.woff?gs5uaf') format('woff'), url('../fonts/icomoon.svg?gs5uaf#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+ [class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+ speak: none;
+ font-style: normal;
+ font-weight: normal;
+ font-variant: normal;
+ text-transform: none;
+ line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+}
+.icon-google-plus:before {
+	content: "\ea8b";
+}
+.icon-facebook:before {
+	content: "\ea90";
+}
+.icon-twitter:before {
+	content: "\ea96";
+}
+ @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+/*---------------------------------------
+   1.2 GENERAL - CSS               
+-----------------------------------------*/
+
+body {
+	
+}
+/*---------------------------------------
+   1.3 TYPOGRAPHY               
+-----------------------------------------*/
+	
+.codetides_sscl_container h1{
+	font-size: 48px; /* PIXEL FALLBACK */
+	font-size: 4.8rem;
+}
+.codetides_sscl_container h2{
+	font-size: 36px; /* PIXEL FALLBACK */
+	font-size: 3.6rem;
+	font-weight: bold;
+	margin-top: 0;
+}
+.codetides_sscl_container h3{
+	font-size: 18px; /* PIXEL FALLBACK */	
+	font-weight: 600;
+	color: #1d1d1d;
+	margin-top: 0px;
+}
+.codetides_sscl_container .desc{
+	font-size: 14px;
+	line-height: 1.5;
+    margin: 1em 0;
+}
+.dark h3, .dark p, .dark .desc {
+	color: #fff;	
+}
+/* --------------------------------------
+=========================================
+   4. HEADER SECTION
+=========================================
+-----------------------------------------*/	
+/* --------------------------------------
+	BOX 1
+-----------------------------------------*/	
+.
+.basic-slim {
+	background: #fff;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.box-basic-slim {
+	clear: both;
+	display: block;
+	margin: 25px auto;
+	padding: 50px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	box-shadow: 0 2px 6px 2px rgba(0,0,0,0.08);
+	z-index: 1;
+}
+
+/*-- Button --*/
+.sscl_btn_sn {
+	background-color: #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 40px;
+	margin: 20px 10px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	width: 160px;
+}
+.button-inner {
+	border-radius: 5px;
+	transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	width: 100%;
+}
+.sscl_btn_sn div{
+	background-color: #ECECEC;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2) inset;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2) inset;
+	display: inline-block;
+	width: 100%;
+}
+.sscl_btn_sn img{
+	position:initial;
+	vertical-align: middle !important;
+}
+.sscl_btn_sn a{
+	background-color: #ECECEC;
+	border-radius: 5px;
+	box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2) inset;
+	-webkit-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2) inset;
+	-moz-box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2) inset;
+	display: inline-block;
+	width: 100%;
+}
+
+
+/*-- Button 3 --*/	
+.button-out1 {
+	background: #f8f8f8 none repeat scroll 0 0;
+	display: inline-block;
+	margin: 20px 15px;
+	padding: 45px 0 0;
+	position: relative;
+}
+.btn1, .btn1 a {
+	border-radius: 0px;
+}
+.button-out1 .sscl_btn_sn {
+	margin: 0;
+}
+.button-out1 i {
+	position: absolute;
+	top: 15px;
+	left: 0;
+	right: 0;
+}
+.button-inner.inner1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #444;
+	color: #fff;
+	border-radius: 0px;
+	z-index:999;
+}
+.btn1:hover .inner1 {
+	bottom: 100%;
+}
+.btn1.fb {
+	border: solid 1px #3b69c4;
+}
+.btn1.fb .inner1 {
+	background: #5785e0; /* Old browsers */
+	background: -moz-linear-gradient(top, #5785e0 0%, #3b5998 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #5785e0 0%, #3b5998 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #5785e0 0%, #3b5998 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5785e0', endColorstr='#3b5998', GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #3f6dc8 inset, 0 5px 0 0 #203691, 0 10px 5px #999;
+ -moz- box-shadow: 0 1px 0 #3f6dc8 inset, 0 5px 0 0 #203691, 0 10px 5px #999;
+ -webkit- box-shadow: 0 1px 0 #3f6dc8 inset, 0 5px 0 0 #203691, 0 10px 5px #999;
+	-o-box-shadow: 0 1px 0 #3f6dc8 inset, 0 5px 0 0 #203691, 0 10px 5px #999;
+}
+.btn1.tw {
+	border: solid 1px #00c3ff;
+}
+.btn1.tw .inner1 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00c3ff+0,00aced+100 */
+	background: #00c3ff; /* Old browsers */
+	background: -moz-linear-gradient(top, #00c3ff 0%, #00aced 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #00c3ff 0%, #00aced 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #00c3ff 0%, #00aced 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3ff', endColorstr='#00aced', GradientType=0 ); /* IE6-9 */
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+}
+.btn1.gp {
+	border: solid 1px #e93434;
+}
+.btn1.gp .inner1 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f43f3f+0,dd4b39+100 */
+	background: #f43f3f; /* Old browsers */
+	background: -moz-linear-gradient(top, #f43f3f 0%, #dd4b39 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f43f3f 0%, #dd4b39 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f43f3f 0%, #dd4b39 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f43f3f', endColorstr='#dd4b39', GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+	-moz-box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+	-o-box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+	-webkit-box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+}
+
+.btn1.yt {
+	border: solid 1px #e93434;
+}
+.btn1.yt .inner1 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f43f3f+0,dd4b39+100 */
+	background: #bb0000; /* Old browsers */
+	background: -moz-linear-gradient(top, #f43f3f 0%, #bb0000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #f43f3f 0%, #bb0000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #f43f3f 0%, #bb0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f43f3f', endColorstr='#bb0000', GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+	-moz-box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+	-o-box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+	-webkit-box-shadow: 0 1px 0 #ee4e4e inset, 0 5px 0 0 #a00000, 0 10px 5px #999;
+}
+
+.btn1.ln {
+	border: solid 1px #007bb6;
+}
+.btn1.ln .inner1 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f43f3f+0,dd4b39+100 */
+	background: #007bb6; /* Old browsers */
+	background: -moz-linear-gradient(top, #048ccd 0%, #007bb6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #048ccd 0%, #007bb6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #048ccd 0%, #007bb6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#048ccd', endColorstr='#007bb6', GradientType=0 ); /* IE6-9 */
+	box-shadow: 0 1px 0 #88d0f2 inset, 0 5px 0 0 #88d0f2, 0 10px 5px #999;
+	-moz-box-shadow: 0 1px 0 #88d0f2 inset, 0 5px 0 0 #88d0f2, 0 10px 5px #999;
+	-o-box-shadow: 0 1px 0 #88d0f2 inset, 0 5px 0 0 #88d0f2, 0 10px 5px #999;
+	-webkit-box-shadow: 0 1px 0 #88d0f2 inset, 0 5px 0 0 #88d0f2, 0 10px 5px #999;
+}
+
+.sscl_btn_sn iframe{	
+	vertical-align: middle !important;
+}
+.fb_iframe_widget span{
+ vertical-align: middle !important;
+}
+.fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+}
+#fb-root{
+	/*display:none;*/
+	display:inline;
+}

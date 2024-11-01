@@ -1,0 +1,223 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .clear{
+	clear:both;
+}
+.codetides_sscl_container{
+	width: 95%;
+    height: 50%;
+    /*position: absolute;*/
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.codetides_sscl_container iframe{
+	margin-bottom:0;
+}
+
+.sscl_locker_form,.sscl_locker_member_form{
+	width:100%;
+	overflow:auto;
+}
+.sscl_locker_form input[type="text"]{
+	float:left;
+	width:30%;
+	margin:10px;	
+	height:35px;
+}
+.sscl_locker_form input[type="text"]::child-last{
+	margin-right:0px;	
+	
+}
+#theme1 .sscl_locker_form input[type="text"], #theme1 .sscl_locker_form textarea, #theme3 .sscl_locker_form input[type="text"], #theme3 .sscl_locker_form textarea, #theme2 .sscl_locker_form input[type="text"], #theme2 .sscl_locker_form textarea{
+	    border: 1px solid #e9e9e9;
+}
+.box-stylish-dark .sscl_locker_form input[type="text"], .box-stylish-dark .sscl_locker_form textarea{
+	    border: 1px solid #333333;
+}
+.sscl_locker_form textarea{
+	/*float:left;*/
+	width:96%;
+	height:100px;
+	margin:10px;
+	clear:both;
+}
+.sscl_locker_form input[type="submit"] , .sscl_locker_member_form input[type="submit"]{
+	margin: 10px;
+    background: #333333;
+    border:1px solid #f1f1f1;
+    color: #fafafa;
+    padding: 10px 20px;
+	clear:both;
+}
+
+.sscl_locker_member_form input[type="text"], .sscl_locker_member_form input[type="password"]{
+	float:left;
+	width:46%;
+	margin:10px;	
+	height: 35px;
+}
+#theme1 .sscl_locker_member_form input[type="text"],#theme3 .sscl_locker_member_form input[type="text"], #theme2 .sscl_locker_member_form input[type="text"] {
+	    border: 1px solid #e9e9e9;
+}
+.box-stylish-dark .sscl_locker_member_form input[type="text"]{
+	    border: 1px solid #333333;
+}
+.codetides_sscl_container_unlock{
+	display:none;
+}
+
+/*Form Layout*/
+
+.col-fields{
+	width:100%;
+	display:inline-block;
+}
+.col-fields.placeleft{
+	width:80%;
+	float: left;
+}
+.col-button{
+	width:100%;
+	display:inline-block;
+}
+.col-button.placeleft{
+	width:20%;
+	float: left;
+}
+.row-1{
+	width:100%;
+	display:inline-block;
+}
+.row-2{
+	width: 46%;
+    display: inline-block;
+    float: left;
+    margin: 0 2%;
+}
+.row-1 input, .row-2 input, .row-3 input{
+	width: 100%;
+    
+}
+.row-2-textarea{	
+    clear:both;
+    float: left;
+	width:96%;
+    margin: 0 2%;
+}
+.row-3{
+	width:29%;
+	display:inline-block;
+	float: left;
+    margin: 0 2%;
+}
+.row-3-textarea{	
+    clear:both;
+    float: left;
+	width:95%;
+    margin: 0 2%;
+}
+.codetides_form_output_response, .codetides_member_form_output_response{
+	display:none;
+	clear:both;
+	
+	width:100%;
+	background:#ff0000;
+	color:#fff;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+}
+.sscl_video_views{
+	margin:10px;
+}
+.dark{
+	color:#fff;
+	font-size: 14px;
+}
+.sscl_locker_voting_header span{
+	    clear: both;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sscl_locker_voting_image {
+    clear: both;
+    margin-left: 0px;
+}
+.sscl_locker_voting_button {
+    height: 57px;
+    width: 268px;
+    background: #262b3e url(../images/thumb.png) 10px 40% no-repeat;
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 57px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+}
+.sscl_locker_voting_button a {
+    text-decoration: none !important;
+    color: #fff !important;
+    display: block;
+    padding-left: 75px;
+    border: none;
+    outline: none;
+}
+.sscl_votes_now_round {
+    background: #fff;
+    color: #000;
+    width: 35px;
+    height: 35px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    border-radius: 17px;
+    font-size: 13px;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.sscl_already_voted{clear:both;font-weight:600;color:#fff; margin-left:10px; background:#ff0000;}
+.sscl_locker_rating_form {
+    clear: both;
+    width: 100%;
+}
+.sscl_locker_rating_form .text {
+    float: left;
+    /*margin-left: 20px;*/
+    width: 40%;
+    text-align: left;
+}
+.sscl_locker_rating_form .rating {
+    float: right;
+    /*margin-right: 20px;*/
+    width: 40%;
+    text-align: right;
+}
+.sscl_locker_rating_form .rating_comments {
+	
+    clear: both;
+    width: 100%;
+}
+.rating_comments textarea {
+    width: 100%;
+    height: 100px;
+    margin-left: 0px;
+    padding: 0;
+    margin-top: 10px;
+}
+.sscl_locker_rating_form input[type="button"] {
+    margin: 10px;
+    background: #1d1d1d;
+    border: none;
+    color: #fafafa;
+    padding: 10px 20px;
+}
